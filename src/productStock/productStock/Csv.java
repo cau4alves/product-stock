@@ -6,7 +6,7 @@ import java.util.*;
 
 public class Csv {
     public void escreve() {
-        String filePath = "C:\\Users\\CT Desenvolvimento\\Downloads\\produtos.csv"; // Substitua pelo caminho do seu arquivo
+        String filePath = "C:\\Users\\Carla\\Downloads\\produtos.csv"; // Substitua pelo caminho do seu arquivo
         ArrayList<String[]> data = new ArrayList<>();
 
         // Verifica se o caminho do arquivo é válido
@@ -36,7 +36,7 @@ public class Csv {
 
     public int pegarValor() {
         String linha;
-        String filePath = "C:\\Users\\CT Desenvolvimento\\Downloads\\produtos.csv";
+        String filePath = "C:\\Users\\Carla\\Downloads\\produtos.csv";
         int qtd = 0;
         int contador = 0; // Para contar a linha (ajudar a ignorar o cabeçalho)
 

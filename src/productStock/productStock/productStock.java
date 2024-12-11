@@ -31,16 +31,16 @@ public class productStock {
         obj10.adiciona(estoque.pegarValor());
 
 
-        // obj1.atualiza(10, 1);
-        // obj2.atualiza(10, 2);
-        // obj3.atualiza(10, 3);
-        // obj4.atualiza(10, 4);
-        // obj5.atualiza(10, 5);
-        // obj6.atualiza(10, 6);
-        // obj7.atualiza(10, 7);
-        // obj8.atualiza(10, 8);
-        // obj9.atualiza(10, 9);
-        // obj10.atualiza(10, 10);
+         obj1.atualiza(10, 1);
+         obj2.atualiza(10, 2);
+         obj3.atualiza(10, 3);
+         obj4.atualiza(10, 4);
+         obj5.atualiza(10, 5);
+         obj6.atualiza(10, 6);
+         obj7.atualiza(10, 7);
+         obj8.atualiza(10, 8);
+         obj9.atualiza(10, 9);
+         obj10.atualiza(10, 10);
 
         estoque.escreve();
 

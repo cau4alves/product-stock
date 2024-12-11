@@ -24,7 +24,7 @@ public class Estoque {
     }
 
     public void atualiza(int qtd, int linha) {
-        String csvFile = "C:\\\\Users\\\\CT Desenvolvimento\\\\Downloads\\\\produtos.csv"; // Caminho para o seu arquivo CSV
+        String csvFile = "C:\\Users\\Carla\\Downloads\\produtos.csv"; // Caminho para o seu arquivo CSV
         List<String> lines = new ArrayList<>();
         int lineToUpdate = qtd; // O número que você deseja inserir
         int rowToUpdate = linha; // A linha que você deseja atualizar (0-indexed)
